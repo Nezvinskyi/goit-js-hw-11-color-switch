@@ -13,7 +13,7 @@ const refs = {
   stopBtn: document.querySelector('[data-action="stop"]'),
 };
 
-let intervalId = 0;
+let intervalId = null;
 
 refs.startBtn.addEventListener('click', startHandler);
 refs.stopBtn.addEventListener('click', stopHandler);
